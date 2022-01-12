@@ -1,6 +1,4 @@
-### Burhan Şimşek
-------------------
-##Jr. Data Scientist
+### Burhan Şimşek ##Jr. Data Scientist
 
 <!--
 **burhansimsek/burhansimsek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
