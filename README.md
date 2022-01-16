@@ -31,7 +31,7 @@ class BS:
     misc     : tuple[str, ...] = ("Docker", "Celery", "RabbitMQ", "Arq", "SQS")
 
     def jsonify(self) -> str:
-        return json.dumps(asdict(self), indent=4)
+        return json.dumps(asdict(self), indent=3)
 
 
 burhan_simsek = BS()
