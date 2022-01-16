@@ -1,20 +1,35 @@
-# Burhan Şimşek
+# Burhan Şimşek | Jr. Data Scientist
 
 ## Hey! 👋
-I'm Marton, a 18 years old web developer from Hungary.
-
-- 🧭 Founder at [@th8ta](https://github.com/th8ta) and [@useverto](https://github.com/useverto)
-
-- 👥 Core team member at [@nestdotland](https://github.com/nestdotland)
+I'm Burhan, a 22 years old Data Scientist from Turkey.
 
 ## Skills
-- 👨‍💻 TypeScript, JavaScript, PHP
-- ⚙️ React, Svelte, Vue
-- 👁️ SASS, CSS, Stylus
-- 💽 MySQL, SQL, Mongo
+- 👨‍💻 Python, SQL, Data Science
 
 ## Contact
-- [marton.lederer.hu](https://marton.lederer.hu)
-- [@martonlederer](https://twitter.com/martonlederer) on Twitter
-- [@martonlederer](https://twitter.com/instagram) on Instagram
-- [Marton#6513](./) on Discord
+- Linkedin: https://www.linkedin.com/in/burhansimsek/
+- [burhansimsek.com](http://burhansimsek.com) on Website
+- [@burhansimsekbs](https://twitter.com/burhansimsekbs) on Twitter
+- [@burhansimsekbs(https://instagram.com/burhansimsekbs) on Instagram
+
+​
+from __future__ import annotations
+
+import json
+from dataclasses import asdict, dataclass
+
+
+@dataclass
+class Arsenal:
+    languages: tuple[str, ...] = ("Python", "JS", "Go")
+    databases: tuple[str, ...] = ("SQLite", "PostgreSQL", "DynamoDB", "Redis")
+    misc     : tuple[str, ...] = ("Docker", "Celery", "RabbitMQ", "Arq", "SQS")
+    ongoing  : tuple[str, ...] = ("Django", "DRF", "Asyncio")
+
+    def jsonify(self) -> str:
+        return json.dumps(asdict(self), indent=4)
+
+
+arsenal = Arsenal()
+print(arsenal.jsonify())
+​
