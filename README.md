@@ -25,18 +25,17 @@ from dataclasses import asdict, dataclass
 
 
 @dataclass
-class Arsenal:
-    languages: tuple[str, ...] = ("Python", "JS", "Go")
-    databases: tuple[str, ...] = ("SQLite", "PostgreSQL", "DynamoDB", "Redis")
+class BS:
+    languages: tuple[str, ...] = ("Python", "R", "C")
+    databases: tuple[str, ...] = ("SQLite", "PostgreSQL", "DynamoDB", "MSSQL")
     misc     : tuple[str, ...] = ("Docker", "Celery", "RabbitMQ", "Arq", "SQS")
-    ongoing  : tuple[str, ...] = ("Django", "DRF", "Asyncio")
 
     def jsonify(self) -> str:
         return json.dumps(asdict(self), indent=4)
 
 
-arsenal = Arsenal()
-print(arsenal.jsonify())
+burhan_simsek = BS()
+print(burhan_simsek.jsonify())
 ​
 ```
 </h3>
