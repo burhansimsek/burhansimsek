@@ -28,7 +28,7 @@ class BS:
     library  : tuple[str, ...] = ("Numpy", "Pandas", "Scipy", "Sklearn","Tensorflow","OpenCv")
 
     def jsonify(self) -> str:
-        return json.dumps(asdict(self), indent=3)
+        return json.dumps(asdict(self), indent=4)
 
 
 burhan_simsek = BS()
