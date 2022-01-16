@@ -7,11 +7,16 @@ I'm Burhan, a 22 years old Data Scientist from Turkey.
 - 👨‍💻 Python, SQL, Data Science
 
 ## Contact
-- Linkedin: https://www.linkedin.com/in/burhansimsek/
+- [Burhan Şimşek](https://www.linkedin.com/in/burhansimsek) on Linkedin
 - [burhansimsek.com](http://burhansimsek.com) on Website
 - [@burhansimsekbs](https://twitter.com/burhansimsekbs) on Twitter
-- [@burhansimsekbs(https://instagram.com/burhansimsekbs) on Instagram
+- [@burhansimsekbs](https://instagram.com/burhansimsekbs) on Instagram
 
+<!-- Zero width character is used to put extra blank lines before and after code -->
+
+<h3>
+    
+```python
 ​
 from __future__ import annotations
 
@@ -33,3 +38,6 @@ class Arsenal:
 arsenal = Arsenal()
 print(arsenal.jsonify())
 ​
+```
+</h3>
+
