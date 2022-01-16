@@ -1,5 +1,5 @@
 # Burhan Şimşek | Jr. Data Scientist
-## 👋
+## Hi! 👋
 I'm Burhan, a 22 years old Data Scientist from Turkey.
 
 ## Contact
@@ -24,7 +24,7 @@ from dataclasses import asdict, dataclass
 class BS:
     languages: tuple[str, ...] = ("Python", "R", "C")
     databases: tuple[str, ...] = ("SQLite", "PostgreSQL", "DynamoDB", "MSSQL")
-    misc     : tuple[str, ...] = ("Docker", "Celery", "RabbitMQ", "Arq", "SQS")
+    misc     : tuple[str, ...] = ("Docker")
 
     def jsonify(self) -> str:
         return json.dumps(asdict(self), indent=3)
