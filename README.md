@@ -1,5 +1,4 @@
 # Burhan Şimşek | Jr. Data Scientist
----
 ## 👋
 I'm Burhan, a 22 years old Data Scientist from Turkey.
 
