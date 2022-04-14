@@ -27,12 +27,10 @@ class BS:
     misc     : tuple[str, ...] = ("Docker","Yolo")
     library  : tuple[str, ...] = ("Numpy", "Pandas", "Scipy", "Sklearn","Tensorflow","OpenCv")
 
-    def jsonify(self) -> str:
-        return json.dumps(asdict(self), indent=4)
+
 
 
 burhan_simsek = BS()
-print(burhan_simsek.jsonify())
 ​
 ```
 </h3>
