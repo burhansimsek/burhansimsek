@@ -15,8 +15,6 @@ I'm Burhan, a 22 years old Data Scientist from Turkey.
 ```python
 ​
 from __future__ import annotations
-
-import json
 from dataclasses import asdict, dataclass
 
 
